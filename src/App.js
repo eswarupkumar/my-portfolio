@@ -21,7 +21,7 @@ function App() {
         <div id='page-body'>
             <Switch>
               <Route path='/' component={Intro} exact/>
-              <Route path='/about' component={About} exact/>
+              <Route path='about' component={About} exact/>
               <Route path='/projects' component={Projects} exact/>
               {/* <Route path='/contact' component={Contact} exact/> */}
               <Route component={NotFoundPage} />
