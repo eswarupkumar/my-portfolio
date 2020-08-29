@@ -1,0 +1,10 @@
+.arrow{
+    position: absolute;
+    /* top: 15%; */
+    right: 4px;
+    bottom: 4%;
+    cursor: pointer;
+}
+.arrow:hover{
+    font-size: 120%;
+}

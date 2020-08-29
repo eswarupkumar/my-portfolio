@@ -1,0 +1,17 @@
+.social{
+    /* position: absolute;
+    left: 94%;
+    top: 40%;
+    list-style: none;
+    margin-bottom: 9    0px; */
+    position: absolute;
+    top: 31%;
+    right: 5px;
+    list-style: none;
+}
+.social li{
+    margin-top: 12px;
+}
+/* a:hover{
+    font-size: larger;
+} */

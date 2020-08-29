@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+.intro{
+    color: white;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Londrina Solid', cursive;
+    /* font-family: 'Russo One', sans-serif; */
+}
+.highlight{
+    color: #2EC4B6;
+}
+.intro .name{
+    animation: blink 1s ease-in-out 0s infinite;
+    font-size: 45px;
+}
+.intro .hobby{
+    font-size: 25px;
+    margin: 0 auto;
+    /* font-size: 100%; */
+    margin-top: 15px;
+    white-space: nowrap;
+    width: 12em;
+    animation: typing 4s steps(30) 1s 1 normal both,blink 1s steps(40) infinite normal;
+    overflow: hidden;transform: translateY(-50%);
+    border-right: 2px solid #fafafa;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 8.5em;
+    }
+}
+@keyframes blink{
+    from{
+        border-right: 2px solid rgba(255,255,255,0.75);
+    }
+    to{
+        border-right: 2px solid transparent;
+
+    }
+}
+.profileimg{
+    border-radius: 50%;  
+    /* background-image: url(../../public/img/pf.jpeg); */
+    height: 180px;
+    width: 180px;
+}
