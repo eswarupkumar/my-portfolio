@@ -12,7 +12,7 @@ export default class Intro extends React.Component{
         return(
         <>
                 <Particle/>
-                <title>Home | Swarup Kumar</title> 
+                <title>Home | Swarup Kuma</title> 
                 <div className='intro'>
                     {/* <img className='profileimg' src={profileimg} alt='profileimg'/> */}
                     <h1 className='name'>Hi ! I am <span className='highlight'>E Swarup Kumar</span></h1>
