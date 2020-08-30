@@ -51,7 +51,7 @@ export default class Projects extends React.Component{
                         <div className='project recipe'>
                             <img src={reciepe} alt='project reciepe'/>
                             <div className='desc'>
-                                <h2>Reciepe Maker</h2>
+                                <h2>Recipe Maker</h2>
                                 <p>Worried about what to cook considering the ingredients in your refrigerator?
 
                                     You need to worry about it. Just you have to put effort into selecting the ingredients you have and based on that, it will show you what you can cook from the chosen ingredients. Interesting !!
