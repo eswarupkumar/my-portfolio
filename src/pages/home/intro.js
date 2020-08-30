@@ -19,7 +19,7 @@ export default class Intro extends React.Component{
                     <h3 className='hobby'>I am a <span className='highlight'>Web developer...</span></h3>
                 </div>
               <Social/>
-              <a href='http://localhost:3000/about'><ArrowR/></a>
+              <a href='/about'><ArrowR/></a>
               {/* <h1 color="white">About Page</h1> */}
               {/* <Particle/> */}
 
